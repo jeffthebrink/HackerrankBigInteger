@@ -12,5 +12,7 @@ public class Main {
 
         System.out.println(new BigInteger(string1).add(new BigInteger(string2)));
         System.out.println(new BigInteger(string1).multiply(new BigInteger(string2)));
+
+        scanner.close();
     }
 }
